@@ -1,0 +1,140 @@
+.Header {}
+
+.Header .Header_wrap {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+    height: 100px;
+    font-weight: 600;
+}
+
+.Header .gnb {
+    margin: 0 0 0 auto;
+
+}
+
+.Header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.Header .util {
+    margin: 0 0 0 80px;
+
+}
+
+
+
+
+.MainVisual .itm {
+    background: url(../images/MainVisual.png)no-repeat center center/cover;
+    height: 600px;
+}
+
+.MainContent .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.MainContent .inner>* {
+    flex: 1;
+}
+
+.MainShop {
+    background: #f9f9f9;
+}
+
+
+.MainShop .inner {
+    display: flex;
+    gap: 30px;
+}
+
+.MainShop .inner>* {
+    flex: 1;
+}
+
+.MainShop .inner figure img {
+    margin: 0 0 24px 0;
+}
+
+.MainShop .inner figure strong {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+
+.MainShop .inner figure p {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 0 42px 0;
+}
+
+.MainShop .inner figure a {
+    border: 1px solid #000000;
+    background: #000000;
+    padding: 14px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.Footer {
+    background: #000000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.Footer .footertop {
+    display: flex;
+    gap: 60px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+
+}
+
+
+
+.Footer .search {
+    margin: 0 0 0 auto;
+    font-size: 28px;
+    gap: 8px;
+}
+
+.Footer .footerbottom {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    line-height: 50px;
+}
+
+.Footer .footerbottom ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+.Footer .footerbottom ul li {
+    position: relative;
+}
+
+.Footer .footerbottom ul li~li::after {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translate(0, -50%);
+    content: "";
+    width: 1px;
+    height: 9px;
+    background: #fff;
+}
+
+.Footer p {
+    line-height: 40px;
+    text-align: center;
+}
